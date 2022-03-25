@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherNow | Current weather</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/65163fd434.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <section id="mainframe">
+    <div class="infocontainer">
+      <h1>Monday</h1>
+      <h4>15 Jan 2022</h4>
+      <p><i class="fa fa-location"></i>Location</p>
+    </div>
+
+    <div class="infocontainer">
+      <i class="fa fa-sun"></i>
+      <h2>29 °C</h4>
+      <p>Sunny</p>
+    </div>
+  </section>
+  <section id="secondaryframe">
+    <div class="infocontainer">
+      <ul id="basicinfo">
+        <li>Precipitation: <span>0%</span> </li>
+        <li>Humidity: <span>34%</span> </li>
+        <li>Wind: <span>0 km/h</span> </li>
+      </ul>
+
+      <ul id="daysinfo">
+        <li id="firstday">
+          <i class="fa fa-sun"></i><p>Tue</p><span>29 °C</span>
+        </li>
+        <li>
+          <i class="fa fa-cloud"></i><p>Wed</p><span>29 °C</span>
+        </li>
+        <li>
+          <i class="fa fa-cloud"></i><p>Thu</p><span>29°C</span>
+        </li>
+        <li>
+          <i class="fa fa-sun"></i><p>Fri</p><span>29 °C</span>
+        </li>
+        <li id="lastday">
+          <i class="fa fa-sun"></i><p>Sat</p><span>29 °C</span>
+        </li>
+      </ul>
+
+      <button id="changelocation"><i class="fa fa-location-arrow"></i>Change location</button>
+    </div>
+  </section>
+
+</body>
+</html>
